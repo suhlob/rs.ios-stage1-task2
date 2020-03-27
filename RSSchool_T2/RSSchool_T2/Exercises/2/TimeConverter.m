@@ -29,7 +29,7 @@
           return [NSString stringWithFormat:@"one minute to %@", [nums objectAtIndex:(hoursInInt % 12 + 1)]];
 
       else if (minutesInInt == 15)
-          return [NSString stringWithFormat:@"quater past %@", [nums objectAtIndex:hoursInInt]];
+          return [NSString stringWithFormat:@"quarter past %@", [nums objectAtIndex:hoursInInt]];
 
       else if (minutesInInt == 30)
           return [NSString stringWithFormat:@"half past %@", [nums objectAtIndex:hoursInInt]];
